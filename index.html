@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game__stats">
+        <div class="game__health-container" id="player-health-container">
+          <div class="game__player healthbar"></div>
+          <div class="game__player-health damage" id="playerHealth"></div>
+        </div>
+        <div class="game__timer">60</div>
+        <div class="game__health-container">
+          <div class="game__enemy healthbar"></div>
+          <div class="game__enemy-health damage" id="enemyHealth"></div>
+        </div>
+      </div>
+      <div class="game__result"></div>
+      <canvas></canvas>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

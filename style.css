@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  display: inline-block;
+  position: relative;
+}
+.game__stats {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.game__health-container {
+  position: relative;
+  height: 30px;
+  width: 100%;
+}
+.game__health-container .healthbar {
+  background-color: yellow;
+  height: 30px;
+  width: 100%;
+}
+.game__health-container .damage {
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.game #player-health-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.game__timer {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game__result {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
